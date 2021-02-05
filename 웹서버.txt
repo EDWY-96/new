@@ -1,0 +1,20 @@
+apache
+*how to install apache http server window  2021
+how to easy install apache on window
+bitnami
+manager windows
+
+주소창 local host →http://127.0.0.1/index.html → index.html 파일 출력
+bitnami 디렉토리 안의 wampstack 들어가면 Apache 설치 디렉토리 htdoccs(hypertext documents웹페이지 저장된 곳)
+안에 index파일 우클릭 열기 메모장 파일 편집
+index.html 화면에 표시되는 웹페이지는 htdocs 디렉토리밑에 index.html파일이다 라는 뜻 의미
+현재 우리는 index.html + 웹브라우저 + 웹서버 모두 컴퓨터 한대에 설치된 상태
+웹브라우저로 웹서버 통해서 htdocs 밑에 index.html 파일을 가져오고 싶다면 주소를 어떻게 쳐야하는가?
+→ http://127.0.0.1/index.html(127.0.0.1=웹브라우저 설치된 컴퓨터를 가리키는 약속되어있는 주소, Internet Protocol AddressI=IP주소)
+127.0.0.1 = 웹브라우저가 설치된 각자의 컴퓨터를 가리킨다
+index.html이라는 경로를 적어주면 웹 브라우저가 자신의 컴퓨터에 설치되어 있는 웹서버에 접속해서 index.html파일을 원한다는 뜻
+그럼 웹서버는 htdocs라는 디렉토리에서 파일을 찾도록 설정이 기본적으로 되어있는 상태(바꿀 수 있음)
+웹서버는 설정이 되어있는대로 htdocs라는 디렉토리에서 index.html이라는 파일을 읽어서 그 파일을 웹브라우저에게 전송해주면
+웹브라우저는 그것을 해석해서 화면에 표시해주게 된다는 뜻
+
+Bitnami 

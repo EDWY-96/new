@@ -1,0 +1,76 @@
+web1. html & internet
+원인인 코드를 통해 결과를 만드는 것이 코딩 이해 핵심
+HyperTextMarkupLanguage - 인류가 생산하는 거의 모든 디지털 정보가 담기는 가장 거대한 그릇
+웹은 특정기업이 독점하는 기술만큼 빨리 발전하진 않았지만 그렇기 때문에 살아남았고 앞으로도 그럴 가능성이 높다
+코딩의 준비물 - 웹 브라우저 코드작성 프로그램(Editor) ex) Atom, Visual Studio
+스스로 필요한 에디터 찾아낼 수 있는 능력이 필요함
+*참고 - HTML Ediotr 검색어 - best HTML editor 20nn
+
+다른 컴퓨터 웹페이지 open → 주소창 엔진
+내 컴퓨터 내장웹파일 open → 주소창 ctrl+o 폴더선택 웹페이지열기
+Edge는 기능x, 크롬이나 익스플로러o 혹은 다른 브라우저
+
+컴공 용어를 모르겠을 때 → 뜻을 찾아보면 일상과 밀접함을 통해 추리할 수 있다(물질기반x, 논리기반이기 때문)
+
+Tag : 설명 문법
+-anchor닻(정보의 바다에 정박한다는 뜻)<a href="링크">  </a> hypertext reference
+어디에 앵커를 내려야 될지 정보가 부족하면 링크 안 걸림,
+ex)클릭시 바로이동   <a href="링크"target"_blank" title"">
+*검색어 html specification(뜻 : 설명서 최신 웹브라우저 가이드 커뮤니티)
+-html위에 관용적으로 이 문서는 html이라는 뜻으로 써주는 태그 <!doctype html>
+- head,body를 감싸는 태그 <html> </html>
+- '본문'(body)을 묶기로 약속한 태그 <head> </head>
+-'본문'이라는 뜻의 태그<body> </body>
+- 본문의 제목을 설명하는 태그 <title> </title> 사용자에게 제목을 알려주고 검색엔진에게 정보를 제공, 노출
+- 컴퓨터는 모든 정보를 0 아니면 1 로 최종적으로 저장함, 그것을 어떻게 저장할 것인지에 대한 여러가지 약속이 존재하는데,
+ex) 이유를 모르겠지만 utf-8로 저장되는 경우가 있음, 파일을 웹브라우저가 열 때에도 utf-8로 열어야 문제가 없음
+이럴 때 사용하는 태그 <meta> ex) <meta charset="utf-8"> meta입력후 에디터가 필요한 언어를 보여줌
+characterset → 문자구조, utf-8로 문서를 읽어라라고 얘기해준 셈
+즉, <meta charset="utf-8"> 태그는 본문이 'utf-8' 방식으로 저장되어 있다는 태그
+-'본문'이라는 뜻의 태그<body> </body>
+- 본문의 내용 headings <h1~h6></h1~/h6> 숫자올라갈수록 크기작아짐, 일반적인 텍스트보다 굵기가 줄어들거나 줄바꿈이 됨
+- 진하게 표시 <strong> </strong>
+- 밑줄 underline <u></u>
+- 새로운 줄<br> 강제 줄바꿈(새로운 줄), 감쌀 필요없어서 닫을 필요없음 * html new line tag
+- 단락paragraph<p></p> 단락 표현, 정해진 여백만큼 벌어지기 때문에 시각적 자유도가 떨어질 수 있음
+*css 활용 ex) <p style="margin-top:40px;" >
+- 이미지 <img > 소스<src>
+<img src="파일명.확장명"> *unsplash.com추천, 다운로드는 web1 디렉토리 사용
+ex) <img src="미생.jpg" width="25%">
+src, width 위치는 상관없으며 이러한 더 많은 의미를 부여할 수 있는 개념을 "속성(Attribute)"라고 칭한다
+- 부모<parent> 자식<child>
+목차list <li></li> *ctrl+좌클릭 편리한기능 사용가능
+li태그를 그룹핑하는 부모태그<ul></ul>
+ex) <ul>unordered list
+      <li></li>
+      <li></li>
+     </ul>
+- 극단적 사고 필요할 떄 ex) 수많은 숫자를 재수정하거나 고쳐야하는 불행한 경우
+<ul>을 <ol>ordered list<ol>로 바꾸고 숫자 지워서 리로드하면 자동으로 숫자가 넘버링됨(수동으로 목차에 넘버링 필요 x)
+HTML은 약 150개 Tag가 있으나 검색을 통해서 전부 외울 필요는 없지만 어느정도 알아두는 게 좋은 건 있다
+* www.advancedwebranking.com 활용 추천, frequency(빈도수) of ~~ 추천
+
+어려운 것(특수상황에서 편리,응용하기 어려움)도 중요하지만 쉬운 것(창조성의 원천, 응요하기 쉬움)도 중요하다,
+하지만 갈 길이 멀다고 해서 의기소침하지 마라
+공부가 필요할 때 통계를 기반해서 무엇을 공부할지 판단해라
+
+HTML이 중요한 이유
+검색엔진의 노출이 유리함
+겉으로 보이는 식의 겉할기 정보보다 탄탄한 정보가 검색엔진 노출에 유리하며,
+검색엔진에 노출되지 않는 정보는 현실에 존재하지 않는 것과 다름없다
+ex) opentutorials.org 글을 쓸 때 내부적으로 어떤 일이 일어나는지 살펴볼 것
+
+-구조 (정보가 많아짐에 따라 정리와 체계가 필요함)
+
+- 컴퓨터는 모든 정보를 0 아니면 1 로 최종적으로 저장함, 그것을 어떻게 저장할 것인지에 대한 여러가지 약속이 존재하는데,
+ex) 이유를 모르겠지만 utf-8로 저장되는 경우가 있음, 파일을 웹브라우저가 열 때에도 utf-8로 열어야 문제가 없음
+이럴 때 사용하는 태그 <meta> ex) <meta charset="utf-8"> meta입력후 에디터가 필요한 언어를 보여줌
+characterset → 문자구조, utf-8로 문서를 읽어라라고 얘기해준 셈
+즉, <meta charset="utf-8"> 태그는 본문이 'utf-8' 방식으로 저장되어 있다는 태그
+
+태그의 제왕
+<body> <h1><a href="index.html"></a><h1>
+<ol>
+      <li><a href="1.html"></a></li>
+      <li><a href="2.html"></a></li>
+      <li><a href="3.html"></a></li> 타이틀태그 - 1.html 2.html...

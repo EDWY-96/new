@@ -1,0 +1,37 @@
+웹호스팅
+웹서버관리를 대신해주는 회사
+웹서버를 운영하기 위한 컴퓨터(Host)를 빌려주는 업체를 web hosting업체라고 함
+무료이면서 굉장히 유명한 서비스
+깃허브(Github) 프로그래머들의 성지, 전세계 수많은 오픈소스들이 만들어지는곳
+홈페이지 운영할 수 있는 웹 서버 제공 서비스 이용 가능, 무료
+프로그래머 전용 I클라우드, 구글드라이브, 드랍박스, 원드라이브같은 개념이라고 생각하면 편함
+1)로그인 - New repository - Repository name - Public - README(꼭 체크) - 생성
+2) 저장소에 작업한 소스코드 업로드가능
+Upload files - choose your files - 작업파일 드래그Open - 파일업로드되면 내용 작성 - Commit change
+수정 시에는 다시 업로드파일 - 수정내용 작성 - Commit change로 다시 보관
+링크를 통해 다른 사람이 내가 작업한 파일을 볼 수 있음
+*Github는 올려둔 html파일을 이용해서 웹사이트 운영할 수 있도록 서비스 제공
+방법) Settings - GitHub Pages - Source밑에 master branch선택
+접속이 안 될 땐 주소되에 직접index.html써주면 됨
+
+나의 컴퓨터에 index.html파일 작성
+GitHub회사에 index.html파일 업로드
+GitHub에 웹서버 활성화 설정
+GitHub에서 주소를 알려
+주소를 방문자에게 알려주면 주소창에 저것을 입력하고 접속하면 웹서바가 index파일을 읽어서
+방문객 웹브라우저에 파일이 열리면서 볼 수 있게 되는 원리
+html파일만을 서비스하고싶을 때는 static web hosting 활용
+(php, python, ruby on rains쓸 때 다이나믹웹호스팅 필요한데 그 때 사용)
+
+웹호스팅은 호스팅업체가 대신 웹서버관리를 해주기 때문에 내가 배울 수 있는게 적지만
+실제로 현업에서 직접 웹서버운영하는 경우는 드물다 힘들다
+전문인력에게 맡기는 사업자가 대부분인 점을 참고
+
+깃허브가 마음에 안든다면
+*검색web hosting(무료희망), static web hosting(일정서비스무료, 그걸 넘어선 유료서비스포함)
+free static web hosting
+*https://www.bitballon.com/
+http://neocities.org/
+Amazon S3
+Google Cloud Storage
+Azure Blob
